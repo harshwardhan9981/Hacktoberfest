@@ -1,28 +1,32 @@
-#this is the example of file handling using python
-
+#this is the example of file  using python
+wertwteryadfg
 def game():
 	return int(input("enter score "))
 score=game()
-with open("Highscore.txt") as f:
-	hiScoreStr=f.read()
-if hiScoreStr=='':
-	with open("Highscore.txt","w") as f:
-		f.write(str(score))
-		print("updated")
-elif int(hiScoreStr)<score:
-	with open("Highscore.txt","w") as f:
-		f.write(str(score))
-		print("updated")
-elif int(hiScoreStr)>=score:
-	print(hiScoreStr)
-
-print("do you want to reset?")
-choice = input("enter yes or no in lowercase ")
-if choice == "yes":
-	score = int(input("enter new value "))
-	with open("Highscore.txt","w") as f:
-		f.write(str(score))
-		print("updated")
-else:
-	print("Appreciate your patience")
-print(f.read())
+with open("Highscore.txt") as f:ertewt
+	hiScortyeteStr=f.read()
+if hiScoreStr=='':yer
+	asfh
+	adf
+	gh
+	adrgh
+	ad
+	hjryj
+	ast
+	gae
+	g
+	eagod ge
+	
+	if
+	sad
+	f 
+	as
+	fias gaer
+	t
+	a4ger
+	yet
+	with open("Highscore.txt","w") asyaer f:e
+choice = tor no in lowercase ")
+if choice == "yes":aw argerya eg
+	print("Appreciate your patiencewtwet")
+print(f.read())yeer
