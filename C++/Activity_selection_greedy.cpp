@@ -1,11 +1,3 @@
-/*
-https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
-
-There is one meeting room in a firm. There are N meetings in the form of (start[i], end[i]) where start[i] is start time of meeting i and end[i] is finish time of meeting i.
-What is the maximum number of meetings that can be accommodated in the meeting room when only one meeting can be held in the meeting room at a particular time?
-
-Note: Start time of one chosen meeting can't be equal to the end time of the other chosen meeting.
-
 
 Input:
 N = 6
@@ -31,8 +23,7 @@ class Solution
     int maxMeetings(int start[], int end[], int n)
     {
         pair<int,int>arr[n];
-        for(int i=0;i<n;i++){
-            arr[i]={start[i],end[i]};
+        for(int i=0;i<n;i++){   arr[i]={start[i],end[i]};
         }
         sort(arr,arr+n,comp);
         
@@ -46,23 +37,17 @@ class Solution
                 curr=arr[i];
             }
         }
-        return c;
         
         
         
         
-        // Your code here
-    }
-};
+     
 
-// { Driver Code Starts.
+
 int main() {
     int t;
     cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        int start[n], end[n];
+    while
         for (int i = 0; i < n; i++) cin >> start[i];
 
         for (int i = 0; i < n; i++) cin >> end[i];
@@ -72,4 +57,4 @@ int main() {
         cout << ans << endl;
     }
     return 0;
-}  // } Driver Code Ends
+} 
